@@ -1,4 +1,4 @@
-#Вывести таблицу умножения в виде:
+# Вывести таблицу умножения в виде:
 # 1 x 1 = 1
 # 1 x 2 = 2
 # ..
@@ -22,5 +22,6 @@ def multiplication_table():
         for a in range(1, 11):
             print(f'{i} x {a} = {i * a}')
         print('-----')
+
 
 multiplication_table()

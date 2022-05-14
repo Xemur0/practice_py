@@ -18,14 +18,12 @@
 # вклада на конец срока.
 
 
-
 def get_percent(amount, months):
     if months > 24:
         return months
 
     if months not in [6, 12, 24]:
         return False
-
 
     rates = (
         {'begin_sum': 1000, 'end_sum': 10000, 6: 5, 12: 6, 24: 5},
@@ -70,27 +68,5 @@ def update_deposit(amount, months, update=0):
 
     return round(total, 2)
 
+
 print(update_deposit(10000, 25, 100))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
