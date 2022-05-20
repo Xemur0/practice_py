@@ -18,4 +18,5 @@ def random_dict(start, finish):
         result.update({f'elem_{i}': random_int})
     return result
 
+
 pprint(random_dict(1, 20), sort_dicts=False)
